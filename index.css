@@ -1,0 +1,56 @@
+body {
+  background-color: #7da2bcaa;
+}
+
+.head {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  background-color: #008c8c80;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.main {
+  width: 100%;
+  height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+
+.storyItem {
+  border: 1px solid #008c8c80;
+  box-shadow: 2px 2px 3px #555;
+  background-color: rgba(238, 238, 238, 20);
+  opacity: 0.9;
+  display: flex;
+  margin: 10px;
+  height: 30vw;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.childPhoto {
+  width: 20vw;
+  height: 20vw;
+  background: url('./static/child1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.storyCard {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.childName {
+  width: 100%;
+  margin: 20px 0 3px 10px;
+}
+
+.storyAudio audio {
+  display: inline-block;
+  width: 60vw !important;
+}
