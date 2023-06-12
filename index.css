@@ -32,7 +32,6 @@ body {
 .childPhoto {
   width: 20vw;
   height: 20vw;
-  background: url('./static/child1.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;
